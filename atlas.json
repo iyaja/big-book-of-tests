@@ -1,0 +1,6 @@
+{
+	"name": "ajat/test",
+	"files": ["ch01.md", "ch02.md"],
+	"branches": ["master"],
+	"export_formats": ["html","pdf"]
+}
