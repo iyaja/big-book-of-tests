@@ -1,6 +1,57 @@
 {
-	"name": "ajat/test",
-	"files": ["ch01.md", "ch02.md"],
-	"branches": ["master"],
-	"export_formats": ["html","pdf"]
+  "name": "ajay/test",
+  "branch": "master",
+  "files": [
+    "cover.html",
+    "titlepage.html",
+    "copyright.html",
+    "toc.html",
+    "preface.html",
+    "chapter.html",
+    "appendix.html",
+    "ix.html",
+    "ch01.md",
+    "ch02.md"
+  ],
+  "formats": {
+    "pdf": {
+      "version": "web",
+      "toc": true,
+      "index": true,
+      "syntaxhighlighting": true,
+      "show_comments": false,
+      "antennahouse_version": "AHFormatterV62_64-MR4",
+      "color_count": false,
+      "trim_size": false
+    },
+    "epub": {
+      "toc": true,
+      "index": true,
+      "syntaxhighlighting": true,
+      "epubcheck": true,
+      "show_comments": false,
+      "mathmlreplace": false,
+      "downsample_images": false
+    },
+    "mobi": {
+      "toc": true,
+      "index": true,
+      "syntaxhighlighting": true,
+      "show_comments": false,
+      "downsample_images": false
+    },
+    "html": {
+      "toc": true,
+      "index": true,
+      "syntaxhighlighting": true,
+      "show_comments": false,
+      "consolidated": false
+    }
+  },
+  "theme": "oreillymedia/atlas_tech1c_theme",
+  "title": "One Big Book of Tests",
+  "templating": false,
+  "print_isbn13": "",
+  "lang": "en",
+  "accent_color": ""
 }
